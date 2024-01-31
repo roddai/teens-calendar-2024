@@ -26,12 +26,10 @@ section h3 {
 
 .week-days {
   display: flex;
-  /* justify-content: space-around; */
 }
 
 .week-days div {
   border: 2px solid blue;
   width: 100%;
   text-align: center;
-  /* flex-basis: 40%; */
 }
