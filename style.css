@@ -98,6 +98,10 @@ li {
   background-color: rgb(190, 145, 232);
 }
 
+.apresentacao {
+  background-color: rgb(190, 145, 232);
+}
+
 .data-especial {
   background-color: rgb(111, 163, 230);
 }
@@ -106,20 +110,26 @@ li {
   background-color: coral;
 }
 
-.ensaio {
-    background-color: coral;
-}
-
 .together {
   background-color: yellow;
+}
+
+.ensaio {
+  background-color: rgb(219, 45, 45);
+  color: white;
 }
 
 .talk-teen {
   background-color: rgb(84, 234, 129);
 }
 
+.gravacao {
+  background-color: rgb(84, 234, 129);
+}
+
 .semana-santa {
   background-color: darkmagenta;
+  color: white;
 }
 
 @media screen and (max-width: 600px) {

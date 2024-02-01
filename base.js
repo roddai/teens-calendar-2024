@@ -232,6 +232,7 @@ const calendarInfo = {
       events: [
         { day: 07, event: 'Sala Temática - Natal', feature: 'sala-tematica' },
         { day: 07, event: '#together - Invade a house - Confraternização - NOITE', feature: 'together' },
+        { day: 25, event: 'Natal', feature: 'feriado-recesso' },
       ]
     },
   ],

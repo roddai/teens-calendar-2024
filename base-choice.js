@@ -36,6 +36,10 @@ const calendarInfo = {
         { day: 17, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 21, event: 'Ensaio - 19h30', feature: 'ensaio' },
         { day: 24, event: 'Ensaio - 15h00', feature: 'ensaio' },
+        { day: 10, event: 'Recesso Carnaval', feature: 'feriado-recesso' },
+        { day: 11, event: 'Recesso Carnaval', feature: 'feriado-recesso' },
+        { day: 12, event: 'Recesso Carnaval', feature: 'feriado-recesso' },
+        { day: 13, event: 'Recesso Carnaval', feature: 'feriado-recesso' },
       ]
     },
     {
@@ -51,7 +55,16 @@ const calendarInfo = {
         { sab: [02, 09, 16, 23, 30] },
       ],
       events: [
-        // { day: 14, event: '#together - Boliche - NOITE', feature: 'together' },
+        { day: 23, event: 'Sala Temática - Semana Santa', feature: 'semana-santa' },
+        { day: 24, event: 'Sala Temática - Semana Santa', feature: 'semana-santa' },
+        { day: 25, event: 'Sala Temática - Semana Santa', feature: 'semana-santa' },
+        { day: 26, event: 'Sala Temática - Semana Santa', feature: 'semana-santa' },
+        { day: 27, event: 'Sala Temática - Semana Santa', feature: 'semana-santa' },
+        { day: 28, event: 'Sala Temática - Semana Santa', feature: 'semana-santa' },
+        { day: 29, event: 'Sala Temática - Semana Santa', feature: 'semana-santa' },
+        { day: 30, event: 'Sala Temática - Semana Santa', feature: 'semana-santa' },
+        { day: 29, event: 'Paixão de Cristo - Sexta-feira Santa', feature: 'feriado-recesso' },
+        { day: 31, event: 'Páscoa', feature: 'feriado-recesso' },
       ]
     },
     {
@@ -67,7 +80,7 @@ const calendarInfo = {
         { sab: [06, 13, 20, 27] },
       ],
       events: [
-        // { day: 20, event: '#together - Noite da pizza (Amanda???) - NOITE', feature: 'together' },
+        { day: 21, event: 'Tiradentes', feature: 'feriado-recesso' },
       ]
     },
     {
@@ -83,7 +96,10 @@ const calendarInfo = {
         { sab: [04, 11, 18, 25] },
       ],
       events: [
-        // { day: 01, event: 'Dia do Trabalho', feature: 'feriado-recesso' },
+        { day: 01, event: 'Dia do Trabalho', feature: 'feriado-recesso' },
+        { day: 12, event: 'Dia das mães', feature: 'data-especial' },
+        { day: 26, event: 'Teencontro', feature: 'data-especial' },
+        { day: 30, event: 'Corpus Christ - Ponto facultativo', feature: 'feriado-recesso' },
       ]
     },
     {
@@ -115,7 +131,7 @@ const calendarInfo = {
         { sab: [06, 13, 20, 27] },
       ],
       events: [
-        // { day: 09, event: 'Revolução Constituc.', feature: 'feriado-recesso' },
+        { day: 09, event: 'Revolução Constituc.', feature: 'feriado-recesso' },
       ]
     },
     {
@@ -131,7 +147,7 @@ const calendarInfo = {
         { sab: [03, 10, 17, 24, 31] },
       ],
       events: [
-        // { day: 10, event: 'Sala Temática - Dia dos pais', feature: 'sala-tematica' },
+        { day: 11, event: 'Dia dos pais', feature: 'data-especial' },
       ]
     },
     {
@@ -147,7 +163,8 @@ const calendarInfo = {
         { sab: [07, 14, 21, 28] },
       ],
       events: [
-        // { day: 07, event: 'Independência do Brasil', feature: 'feriado-recesso' },
+        { day: 07, event: 'Independência do Brasil', feature: 'feriado-recesso' },
+        { day: 21, event: 'Dia do adolescente / Dia dos desbravadores', feature: 'data-especial' },
       ]
     },
     {
@@ -163,7 +180,7 @@ const calendarInfo = {
         { sab: [05, 12, 19, 26] },
       ],
       events: [
-        // { day: 12, event: 'Dia das crianças', feature: 'data-especial' },
+        { day: 12, event: 'Dia das crianças', feature: 'data-especial' },
       ]
     },
     {
@@ -179,7 +196,9 @@ const calendarInfo = {
         { sab: [02, 09, 16, 23, 30] },
       ],
       events: [
-        // { day: 02, event: 'Finados', feature: 'feriado-recesso' },
+        { day: 02, event: 'Finados', feature: 'feriado-recesso' },
+        { day: 15, event: 'Proclamação da República', feature: 'feriado-recesso' },
+        { day: 20, event: 'Consciência Negra', feature: 'feriado-recesso' },
       ]
     },
     {
@@ -195,7 +214,7 @@ const calendarInfo = {
         { sab: [07, 14, 21, 28] },
       ],
       events: [
-        // { day: 07, event: 'Sala Temática - Natal', feature: 'sala-tematica' },
+        { day: 25, event: 'Natal', feature: 'feriado-recesso' },
       ]
     },
   ],
