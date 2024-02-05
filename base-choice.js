@@ -30,12 +30,12 @@ const calendarInfo = {
       ],
       events: [
         { day: 02, event: 'Ensaio - 19h30', feature: 'ensaio' },
-        { day: 03, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 07, event: 'Ensaio - 19h30', feature: 'ensaio' },
         { day: 16, event: 'Ensaio - 19h30', feature: 'ensaio' },
-        { day: 17, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 21, event: 'Ensaio - 19h30', feature: 'ensaio' },
+        { day: 23, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
         { day: 24, event: 'Ensaio - 15h00', feature: 'ensaio' },
+        { day: 28, event: 'Ensaio - 19h30', feature: 'ensaio' },
         { day: 10, event: 'Recesso Carnaval', feature: 'feriado-recesso' },
         { day: 11, event: 'Recesso Carnaval', feature: 'feriado-recesso' },
         { day: 12, event: 'Recesso Carnaval', feature: 'feriado-recesso' },
@@ -55,6 +55,13 @@ const calendarInfo = {
         { sab: [02, 09, 16, 23, 30] },
       ],
       events: [
+        { day: 01, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 02, event: '10 horas de jejum', feature: 'data-especial' },
+        { day: 06, event: 'Ensaio - 19h30', feature: 'ensaio' },
+        { day: 08, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 09, event: 'Ensaio - 15h00', feature: 'ensaio' },
+        { day: 13, event: 'Ensaio - 19h30', feature: 'ensaio' },
+        { day: 15, event: 'Ensaio - 19h30', feature: 'ensaio' },
         { day: 23, event: 'Sala Temática - Semana Santa', feature: 'semana-santa' },
         { day: 24, event: 'Sala Temática - Semana Santa', feature: 'semana-santa' },
         { day: 25, event: 'Sala Temática - Semana Santa', feature: 'semana-santa' },
@@ -80,7 +87,15 @@ const calendarInfo = {
         { sab: [06, 13, 20, 27] },
       ],
       events: [
+        { day: 05, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 06, event: 'Ensaio - 15h00', feature: 'ensaio' },
+        { day: 12, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 13, event: 'AGENDA ABERTA', feature: 'agenda-aberta' },
+        { day: 19, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 20, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 21, event: 'Tiradentes', feature: 'feriado-recesso' },
+        { day: 26, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 27, event: 'Ensaio - 15h00', feature: 'ensaio' },
       ]
     },
     {
@@ -97,9 +112,17 @@ const calendarInfo = {
       ],
       events: [
         { day: 01, event: 'Dia do Trabalho', feature: 'feriado-recesso' },
+        { day: 03, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 04, event: 'Ensaio - 15h00', feature: 'ensaio' },
+        { day: 10, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 11, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 12, event: 'Dia das mães', feature: 'data-especial' },
+        { day: 17, event: 'Ensaio - 19h30', feature: 'ensaio' },
+        { day: 18, event: 'AGENDA ABERTA', feature: 'agenda-aberta' },
+        { day: 25, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 26, event: 'Teencontro', feature: 'data-especial' },
         { day: 30, event: 'Corpus Christ - Ponto facultativo', feature: 'feriado-recesso' },
+        { day: 31, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
       ]
     },
     {
@@ -115,7 +138,14 @@ const calendarInfo = {
         { sab: [01, 08, 15, 22, 29] },
       ],
       events: [
-        // { day: 15, event: 'Sala Temática - ???', feature: 'sala-tematica' },
+        { day: 01, event: 'Ensaio - 15h00', feature: 'ensaio' },
+        { day: 07, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 08, event: 'Ensaio - 15h00', feature: 'ensaio' },
+        { day: 14, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 21, event: 'Ensaio - 19h30', feature: 'ensaio' },
+        { day: 22, event: 'Apresentação - IASD Guaraciaba', feature: 'apresentacao' },
+        { day: 28, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 29, event: 'Ensaio - 19h30', feature: 'ensaio' },
       ]
     },
     {
@@ -147,7 +177,13 @@ const calendarInfo = {
         { sab: [03, 10, 17, 24, 31] },
       ],
       events: [
+        { day: 02, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 10, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 11, event: 'Dia dos pais', feature: 'data-especial' },
+        { day: 16, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 23, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 30, event: 'Ensaio - 19h30', feature: 'ensaio' },
+        { day: 31, event: 'AGENDA ABERTA', feature: 'agenda-aberta' },
       ]
     },
     {
@@ -164,7 +200,15 @@ const calendarInfo = {
       ],
       events: [
         { day: 07, event: 'Independência do Brasil', feature: 'feriado-recesso' },
+        { day: 13, event: 'Ensaio - 19h30 (OU dia 14)', feature: 'ensaio' },
+        { day: 14, event: 'Ensaio - 15h00 (exceto se tiver apresentação)', feature: 'ensaio' },
+        { day: 14, event: 'AGENDA ABERTA', feature: 'agenda-aberta' },
+        { day: 13, event: 'Ensaio - 19h30 (OU dia 14)', feature: 'ensaio' },
+        { day: 14, event: 'Ensaio - 15h00 (exceto se tiver apresentação)', feature: 'ensaio' },
+        { day: 14, event: 'AGENDA ABERTA', feature: 'agenda-aberta' },
         { day: 21, event: 'Dia do adolescente / Dia dos desbravadores', feature: 'data-especial' },
+        { day: 27, event: 'Ensaio - 19h30', feature: 'ensaio' },
+        { day: 28, event: 'Batismo da primavera', feature: 'data-especial' },
       ]
     },
     {
@@ -180,7 +224,12 @@ const calendarInfo = {
         { sab: [05, 12, 19, 26] },
       ],
       events: [
+        { day: 04, event: 'Ensaio - 19h30', feature: 'ensaio' },
+        { day: 05, event: 'AGENDA ABERTA', feature: 'agenda-aberta' },
         { day: 12, event: 'Dia das crianças', feature: 'data-especial' },
+        { day: 18, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 19, event: 'Ensaio - 15h00', feature: 'ensaio' },
+        { day: 25, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
       ]
     },
     {
@@ -197,8 +246,14 @@ const calendarInfo = {
       ],
       events: [
         { day: 02, event: 'Finados', feature: 'feriado-recesso' },
+        { day: 08, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
         { day: 15, event: 'Proclamação da República', feature: 'feriado-recesso' },
         { day: 20, event: 'Consciência Negra', feature: 'feriado-recesso' },
+        { day: 22, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 23, event: 'Ensaio - 15h00', feature: 'ensaio' },
+        { day: 29, event: 'Ensaio - 19h30 (OU dia 30)', feature: 'ensaio' },
+        { day: 30, event: 'Ensaio - 15h00 (exceto se tiver apresentação)', feature: 'ensaio' },
+        { day: 30, event: 'AGENDA ABERTA', feature: 'agenda-aberta' },
       ]
     },
     {
@@ -214,6 +269,8 @@ const calendarInfo = {
         { sab: [07, 14, 21, 28] },
       ],
       events: [
+        { day: 06, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 07, event: 'Confraternização', feature: 'confra' },
         { day: 25, event: 'Natal', feature: 'feriado-recesso' },
       ]
     },

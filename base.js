@@ -50,7 +50,7 @@ const calendarInfo = {
         { sab: [02, 09, 16, 23, 30] },
       ],
       events: [
-        { day: 14, event: '#together - Boliche - NOITE', feature: 'together' },
+        { day: 21, event: '#together - Boliche - NOITE', feature: 'together' },
         { day: 23, event: 'Sala Temática - Semana Santa', feature: 'sala-tematica' },
         { day: 24, event: 'Sala Temática - Semana Santa', feature: 'sala-tematica' },
         { day: 25, event: 'Sala Temática - Semana Santa', feature: 'sala-tematica' },
@@ -210,11 +210,11 @@ const calendarInfo = {
       ],
       events: [
         { day: 02, event: 'Finados', feature: 'feriado-recesso' },
-        { day: 09, event: 'Talk Teen - TARDE', feature: 'talk-teen' },
         { day: 15, event: 'Proclamação da República', feature: 'feriado-recesso' },
         { day: 19, event: '#together - Boliche - NOITE', feature: 'together' },
         { day: 20, event: 'Consciência Negra', feature: 'feriado-recesso' },
         { day: 23, event: 'Sala Temática - ???', feature: 'sala-tematica' },
+        { day: 23, event: 'Talk Teen - TARDE', feature: 'talk-teen' },
       ]
     },
     {

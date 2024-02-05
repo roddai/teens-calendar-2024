@@ -98,7 +98,7 @@ li {
   background-color: rgb(190, 145, 232);
 }
 
-.apresentacao {
+.gravacao {
   background-color: rgb(190, 145, 232);
 }
 
@@ -114,6 +114,10 @@ li {
   background-color: yellow;
 }
 
+.agenda-aberta {
+  background-color: yellow;
+}
+
 .ensaio {
   background-color: rgb(219, 45, 45);
   color: white;
@@ -123,12 +127,22 @@ li {
   background-color: rgb(84, 234, 129);
 }
 
-.gravacao {
+.apresentacao {
   background-color: rgb(84, 234, 129);
 }
 
 .semana-santa {
   background-color: darkmagenta;
+  color: white;
+}
+
+.ponto-com {
+  background-color: rgb(8, 54, 193);
+  color: white;
+}
+
+.confra {
+  background-color: green;
   color: white;
 }
 
