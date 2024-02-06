@@ -33,7 +33,7 @@ const calendarInfo = {
         { day: 07, event: 'Ensaio - 19h30', feature: 'ensaio' },
         { day: 16, event: 'Ensaio - 19h30', feature: 'ensaio' },
         { day: 21, event: 'Ensaio - 19h30', feature: 'ensaio' },
-        { day: 23, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 23, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 24, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 28, event: 'Ensaio - 19h30', feature: 'ensaio' },
         { day: 10, event: 'Recesso Carnaval', feature: 'feriado-recesso' },
@@ -55,10 +55,10 @@ const calendarInfo = {
         { sab: [02, 09, 16, 23, 30] },
       ],
       events: [
-        { day: 01, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 01, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 02, event: '10 horas de jejum', feature: 'data-especial' },
         { day: 06, event: 'Ensaio - 19h30', feature: 'ensaio' },
-        { day: 08, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 08, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 09, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 13, event: 'Ensaio - 19h30', feature: 'ensaio' },
         { day: 15, event: 'Ensaio - 19h30', feature: 'ensaio' },
@@ -87,14 +87,14 @@ const calendarInfo = {
         { sab: [06, 13, 20, 27] },
       ],
       events: [
-        { day: 05, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 05, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 06, event: 'Ensaio - 15h00', feature: 'ensaio' },
-        { day: 12, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 12, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 13, event: 'AGENDA ABERTA', feature: 'agenda-aberta' },
-        { day: 19, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 19, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 20, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 21, event: 'Tiradentes', feature: 'feriado-recesso' },
-        { day: 26, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 26, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 27, event: 'Ensaio - 15h00', feature: 'ensaio' },
       ]
     },
@@ -112,9 +112,9 @@ const calendarInfo = {
       ],
       events: [
         { day: 01, event: 'Dia do Trabalho', feature: 'feriado-recesso' },
-        { day: 03, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 03, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 04, event: 'Ensaio - 15h00', feature: 'ensaio' },
-        { day: 10, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 10, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 11, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 12, event: 'Dia das mães', feature: 'data-especial' },
         { day: 17, event: 'Ensaio - 19h30', feature: 'ensaio' },
@@ -122,7 +122,7 @@ const calendarInfo = {
         { day: 25, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 26, event: 'Teencontro', feature: 'data-especial' },
         { day: 30, event: 'Corpus Christ - Ponto facultativo', feature: 'feriado-recesso' },
-        { day: 31, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 31, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
       ]
     },
     {
@@ -139,12 +139,12 @@ const calendarInfo = {
       ],
       events: [
         { day: 01, event: 'Ensaio - 15h00', feature: 'ensaio' },
-        { day: 07, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 07, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 08, event: 'Ensaio - 15h00', feature: 'ensaio' },
-        { day: 14, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 14, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 21, event: 'Ensaio - 19h30', feature: 'ensaio' },
         { day: 22, event: 'Apresentação - IASD Guaraciaba', feature: 'apresentacao' },
-        { day: 28, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 28, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 29, event: 'Ensaio - 19h30', feature: 'ensaio' },
       ]
     },
@@ -177,11 +177,11 @@ const calendarInfo = {
         { sab: [03, 10, 17, 24, 31] },
       ],
       events: [
-        { day: 02, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 02, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 10, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 11, event: 'Dia dos pais', feature: 'data-especial' },
-        { day: 16, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
-        { day: 23, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 16, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
+        { day: 23, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 30, event: 'Ensaio - 19h30', feature: 'ensaio' },
         { day: 31, event: 'AGENDA ABERTA', feature: 'agenda-aberta' },
       ]
@@ -224,9 +224,9 @@ const calendarInfo = {
         { day: 04, event: 'Ensaio - 19h30', feature: 'ensaio' },
         { day: 05, event: 'AGENDA ABERTA', feature: 'agenda-aberta' },
         { day: 12, event: 'Dia das crianças', feature: 'data-especial' },
-        { day: 18, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 18, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 19, event: 'Ensaio - 15h00', feature: 'ensaio' },
-        { day: 25, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 25, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
       ]
     },
     {
@@ -243,10 +243,10 @@ const calendarInfo = {
       ],
       events: [
         { day: 02, event: 'Finados', feature: 'feriado-recesso' },
-        { day: 08, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 08, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 15, event: 'Proclamação da República', feature: 'feriado-recesso' },
         { day: 20, event: 'Consciência Negra', feature: 'feriado-recesso' },
-        { day: 22, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 22, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 23, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 29, event: 'Ensaio - 19h30 (OU dia 30)', feature: 'ensaio' },
         { day: 30, event: 'Ensaio - 15h00 (exceto se tiver apresentação)', feature: 'ensaio' },
@@ -266,7 +266,7 @@ const calendarInfo = {
         { sab: [07, 14, 21, 28] },
       ],
       events: [
-        { day: 06, event: '.COM - aula de piano e violão', feature: 'ponto-com' },
+        { day: 06, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 07, event: 'Confraternização', feature: 'confra' },
         { day: 25, event: 'Natal', feature: 'feriado-recesso' },
       ]
