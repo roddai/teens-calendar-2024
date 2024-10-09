@@ -221,12 +221,15 @@ const calendarInfo = {
         { sab: [05, 12, 19, 26] },
       ],
       events: [
+        { day: 04, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 04, event: 'Ensaio - 19h30', feature: 'ensaio' },
         { day: 05, event: 'AGENDA ABERTA', feature: 'agenda-aberta' },
+        { day: 11, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 12, event: 'Dia das crianças', feature: 'data-especial' },
         { day: 18, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 19, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 25, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
+        { day: 25, event: 'Ensaio - 15h00', feature: 'ensaio' },
       ]
     },
     {
@@ -244,13 +247,11 @@ const calendarInfo = {
       events: [
         { day: 02, event: 'Finados', feature: 'feriado-recesso' },
         { day: 08, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
+        { day: 08, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 15, event: 'Proclamação da República', feature: 'feriado-recesso' },
         { day: 20, event: 'Consciência Negra', feature: 'feriado-recesso' },
-        { day: 22, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
-        { day: 23, event: 'Ensaio - 15h00', feature: 'ensaio' },
         { day: 29, event: 'Ensaio - 19h30 (OU dia 30)', feature: 'ensaio' },
         { day: 30, event: 'Ensaio - 15h00 (exceto se tiver apresentação)', feature: 'ensaio' },
-        { day: 30, event: 'AGENDA ABERTA', feature: 'agenda-aberta' },
       ]
     },
     {
@@ -266,7 +267,6 @@ const calendarInfo = {
         { sab: [07, 14, 21, 28] },
       ],
       events: [
-        { day: 06, event: '.COM - ukulele, piano, violão, guitarra', feature: 'ponto-com' },
         { day: 07, event: 'Confraternização', feature: 'confra' },
         { day: 25, event: 'Natal', feature: 'feriado-recesso' },
       ]

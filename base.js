@@ -193,7 +193,7 @@ const calendarInfo = {
       events: [
         { day: 12, event: 'Dia das crianças', feature: 'data-especial' },
         { day: 26, event: 'Sala Temática - Festa italiana', feature: 'sala-tematica' },
-        { day: 26, event: '#together - Noite da pizza - NOITE', feature: 'together' },
+        // { day: 26, event: '#together - Noite da pizza - NOITE', feature: 'together' },
       ]
     },
     {
